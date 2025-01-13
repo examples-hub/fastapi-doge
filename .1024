@@ -1,0 +1,4 @@
+# Command to install or update dependencies
+dependency_command: pip install -r requirements.txt
+# Command to run the FastAPI application in development mode
+run_command: uvicorn main:app --reload
