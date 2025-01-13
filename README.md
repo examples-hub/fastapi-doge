@@ -1,19 +1,8 @@
-![DOGEAPI](docs/Images/header.svg)
-
-<p align="center">
-   <img src="https://img.shields.io/badge/Dev-Yezz123-green?style"/>
-   <img src="https://img.shields.io/badge/language-python-blue?style"/>
-   <img src="https://img.shields.io/github/stars/yezz123/DogeAPI"/>
-   <img src="https://img.shields.io/github/forks/yezz123/DogeAPI"/>
-   <img src="https://visitor-badge.laobi.icu/badge?page_id=yezz123.Pretty-Readme">
-   <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
-   <a href="https://github.com/yezz123/DogeAPI/actions/workflows/docker-publish.yml"><img src="https://github.com/yezz123/DogeAPI/actions/workflows/docker-publish.yml/badge.svg?branch=main"/></a>
-
-</p>
-
 # DogeAPI
 
 API with high performance built with FastAPI & SQLAlchemy, help to improve connection with your Backend Side to create a simple blog and Cruds with OAuth2PasswordBearer ⛏
+
+- [Build and Secure an API in Python with FastAPI – Blog](https://blog.yezz.me/blog/Build-and-Secure-an-API-in-Python-with-FastAPI)
 
 ## Getting Started
 
@@ -63,7 +52,7 @@ $ uvicorn main:app --reload
 - `DATABASE_URL`: The database url to connect to the database.
 - `ACCESS_TOKEN_EXPIRE_MINUTES`: The access token expire minutes.
 
-> change all the environment variables in the `.env.sample` and don't forget to rename it to `.env`.
+> change all the environment variables in the `.env.sample` and don't forget to rename it to `.env` .
 
 ### Configured Environment
 
